@@ -75,7 +75,7 @@ async function generateMarkdown() {
   ---\n
 
   <div align="center">\n
-   <a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/favicon.png" width="30" /></a>\n
+   <a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/assets/icon.ico" width="30" /></a>\n
   </div>`;
 
     const result = md.render(markdownText);
