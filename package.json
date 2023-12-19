@@ -1,0 +1,23 @@
+{
+    "name": "frostplexx",
+    "version": "1.0.0",
+    "description": "My GitHub Profile",
+    "main": "src/app.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run build && node build/app.js",
+        "build": "npx tsc",
+        "build:watch": "npx tsc-watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "markdown-it": "^14.0.0",
+        "rss-parser": "^3.13.0",
+        "tsc-watch": "^6.0.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.5"
+    }
+}
