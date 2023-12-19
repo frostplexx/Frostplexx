@@ -19,5 +19,5 @@
   </details>
 <hr>
   <div align="center">
-<p><a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/favicon.png" width="30" /></a></p>
+<p><a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/assets/icon.ico" width="30" /></a></p>
   </div>
