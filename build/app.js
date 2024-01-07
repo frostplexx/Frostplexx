@@ -39,8 +39,8 @@ const md = require("markdown-it")({
     linkify: true // Autoconvert URL-like text to links
 });
 const fetchGitHubData_1 = require("./fetchGitHubData");
-const blogFeedUrl = "https://blog.bolajiayodeji.com/rss.xml";
-const newsletterFeedUrl = "https://bawd.bolajiayodeji.com/feed";
+// const blogFeedUrl = "https://blog.bolajiayodeji.com/rss.xml";
+// const newsletterFeedUrl = "https://bawd.bolajiayodeji.com/feed";
 const ossProjectRepos = [
     "winston",
     "obsidian-github-issues",
@@ -103,7 +103,7 @@ function generateMarkdown() {
   ---\n
 
   <div align="center">\n
-   <a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/favicon.png" width="30" /></a>\n
+   <a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/assets/icon.ico" width="30" /></a>\n
   </div>`;
         const result = md.render(markdownText);
         fs.writeFile("README.md", result, (error) => {

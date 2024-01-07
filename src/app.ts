@@ -4,11 +4,10 @@ const md = require("markdown-it")({
     breaks: true, // Convert '\n' in paragraphs into <br>
     linkify: true // Autoconvert URL-like text to links
 });
-import { fetchRssData } from "./fetchRssData";
 import { fetchGitHubData } from "./fetchGitHubData";
 
-const blogFeedUrl = "https://blog.bolajiayodeji.com/rss.xml";
-const newsletterFeedUrl = "https://bawd.bolajiayodeji.com/feed";
+// const blogFeedUrl = "https://blog.bolajiayodeji.com/rss.xml";
+// const newsletterFeedUrl = "https://bawd.bolajiayodeji.com/feed";
 
 const ossProjectRepos = [
     "winston",
