@@ -14,7 +14,7 @@
   Here are some of my other projects you might want to check out that are not pinned:
   <br />
 <br />
-  <ul><li><a href=https://github.com/frostplexx/winston target="_blank" rel="noopener noreferrer">frostplexx/winston</a> (<b>0</b> ✨ and <b>0</b> 🍴): null</li><li><a href=https://github.com/frostplexx/obsidian-github-issues target="_blank" rel="noopener noreferrer">frostplexx/obsidian-github-issues</a> (<b>28</b> ✨ and <b>5</b> 🍴): A simple plugin that lets you embed GitHub issues in your Obsidian notes</li><li><a href=https://github.com/frostplexx/BinaryTools target="_blank" rel="noopener noreferrer">frostplexx/BinaryTools</a> (<b>0</b> ✨ and <b>0</b> 🍴): A raycast calculator plugin for binary, decimal, hex and octal numbers.</li>[object Object]
+  <ul><li><a href=https://github.com/frostplexx/winston target="_blank" rel="noopener noreferrer">frostplexx/winston</a> (<b>0</b> ✨ and <b>0</b> 🍴): null</li><li><a href=https://github.com/frostplexx/obsidian-github-issues target="_blank" rel="noopener noreferrer">frostplexx/obsidian-github-issues</a> (<b>29</b> ✨ and <b>5</b> 🍴): A simple plugin that lets you embed GitHub issues in your Obsidian notes</li><li><a href=https://github.com/frostplexx/BinaryTools target="_blank" rel="noopener noreferrer">frostplexx/BinaryTools</a> (<b>0</b> ✨ and <b>0</b> 🍴): A raycast calculator plugin for binary, decimal, hex and octal numbers.</li>[object Object]
 <li>More coming soon :D.</li></ul>
   </details>
 <hr>
