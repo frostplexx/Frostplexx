@@ -67,13 +67,18 @@
 
 </div>
 
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| [dotfiles.nix](https://github.com/frostplexx/dotfiles.nix) | No description | `Nix` `Shell` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [opsops](https://github.com/frostplexx/opsops) | A wrapper for sops that integrates 1Password | `Rust` `Just` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [nixkit](https://github.com/frostplexx/nixkit) | No description | `Nix` `Python` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [ExtPorter](https://github.com/frostplexx/ExtPorter) | ExtPorter is a framework for automatically migrating Google Chrome extensions from Manifest V2 to Manifest V3 | `TypeScript` `Rust` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [sunshine_virt_display](https://github.com/frostplexx/sunshine_virt_display) | A script to dynamically create virtual displays for Sunshine game streaming on Linux using EDID overrides. | `Python` `Shell` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
+<table id="projects">
+  <thead>
+    <tr><th>Project</th><th>Description</th><th>Stack</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="https://github.com/frostplexx/dotfiles.nix">dotfiles.nix</a></td><td>No description</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/opsops">opsops</a></td><td>A wrapper for sops that integrates 1Password</td><td><code>Rust</code> <code>Just</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/nixkit">nixkit</a></td><td>No description</td><td><code>Nix</code> <code>Python</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/ExtPorter">ExtPorter</a></td><td>ExtPorter is a framework for automatically migrating Google Chrome extensions from Manifest V2 to Manifest V3</td><td><code>TypeScript</code> <code>Rust</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/sunshine_virt_display">sunshine_virt_display</a></td><td>A script to dynamically create virtual displays for Sunshine game streaming on Linux using EDID overrides.</td><td><code>Python</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+  </tbody>
+</table>
 
 ---
 
