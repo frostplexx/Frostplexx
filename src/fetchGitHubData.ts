@@ -9,32 +9,27 @@ interface GitHubRepo {
   languages_url: string;
 }
 
-function getStatusBadge(pushedAt: string): string {
+function getStatus(pushedAt: string): { label: string; color: string } {
   const sixMonthsAgo = new Date();
   sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
   const lastPush = new Date(pushedAt);
-  if (lastPush >= sixMonthsAgo) {
-    return `![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e)`;
-  }
-  return `![MAINTENANCE](https://img.shields.io/badge/MAINTENANCE-f9e2af?style=flat-square&logoColor=1e1e2e)`;
+  return lastPush >= sixMonthsAgo
+    ? { label: "ACTIVE", color: "a6e3a1" }
+    : { label: "MAINTENANCE", color: "f9e2af" };
 }
 
 async function getRepoLanguages(
   languagesUrl: string,
   token?: string,
-): Promise<string> {
+): Promise<string[]> {
   const headers: Record<string, string> = {
     "User-Agent": "Frostplexx-Profile-Readme",
   };
   if (token) headers["Authorization"] = `Bearer ${token}`;
   const res = await fetch(languagesUrl, { headers });
-  if (!res.ok) return "";
+  if (!res.ok) return [];
   const data = (await res.json()) as Record<string, number>;
-  // Return the top 2 languages as backtick-formatted badges
-  return Object.keys(data)
-    .slice(0, 2)
-    .map((lang) => `\`${lang}\``)
-    .join(" ");
+  return Object.keys(data).slice(0, 2);
 }
 
 export async function fetchRecentRepos(
@@ -67,17 +62,15 @@ export async function fetchRecentRepos(
   const rows = await Promise.all(
     filtered.map(async (repo) => {
       const langs = await getRepoLanguages(repo.languages_url, token);
-      const status = getStatusBadge(repo.pushed_at);
+      const { label, color } = getStatus(repo.pushed_at);
       const desc = repo.description ?? "No description";
-      return `| [${repo.name}](${repo.html_url}) | ${desc} | ${langs} | ${status} |`;
+      const badge = `<img src="https://img.shields.io/badge/${label}-${color}?style=flat-square&logoColor=1e1e2e" alt="${label}">`;
+      const langCells = langs.map((l) => `<code>${l}</code>`).join(" ");
+      return `    <tr><td><a href="${repo.html_url}">${repo.name}</a></td><td>${desc}</td><td>${langCells}</td><td>${badge}</td></tr>`;
     }),
   );
 
-  return [
-    "| Project | Description | Stack | Status |",
-    "|---|---|---|---|",
-    ...rows,
-  ].join("\n");
+  return rows.join("\n");
 }
 
 export async function fetchGitHubData(repos: Array<string>) {
