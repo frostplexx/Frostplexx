@@ -87,6 +87,7 @@
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Frostplexx&show_icons=true&hide_border=true&include_all_commits=false&card_width=500&custom_title=Open%20Source%20Stats&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide=contribs&show=reviews,prs_merged,prs_merged_percentage#gh-dark-mode-only" alt="GitHub Stats Dark" />
 </a>
 
+![snake gif](https://github.com/frostplexx/Frostplexx/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -94,6 +95,5 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:cba6f7,75:74c7ec,100:f5c2e7&section=footer" />
 
-![snake gif](https://github.com/frostplexx/Frostplexx/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
