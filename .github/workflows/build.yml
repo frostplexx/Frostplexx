@@ -20,6 +20,8 @@ jobs:
         run: npm install
       - name: Rebuild README.md File
         run: npm run start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit and Push if Changed
         run: |-
           git add .

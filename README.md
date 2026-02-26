@@ -120,6 +120,15 @@
 
 <div align="center">
 
+<code>
+  ╱|、
+    (˚ˎ 。7  
+           |、˜〵          
+    じしˍ,)ノ
+</code>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:89dceb,100:74c7ec&section=footer" />
+
+
+
 
 </div>
