@@ -84,4 +84,3 @@ function fetchGitHubData(repos) {
         return `<ul>${list.join("")}\n<li>More coming soon :D.</li></ul>`;
     });
 }
-exports.fetchGitHubData = fetchGitHubData;
