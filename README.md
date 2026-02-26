@@ -34,13 +34,12 @@
 
 </div>
 
-```
+```bash
 > Developer, tinkerer, open-source enthusiast
 > Based in UTC+01:00
 > Building tools for macOS, obsidian, and the terminal
 ```
 
----
 
 
 <div align="center">
@@ -62,7 +61,6 @@
   </tbody>
 </table>
 
----
 
 <div align="center">
 
@@ -80,7 +78,6 @@
 
 </div>
 
----
 
 <div align="center">
 
@@ -93,10 +90,8 @@
 
 </div>
 
----
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:89dceb,100:74c7ec&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:cba6f7,75:74c7ec,100:f5c2e7&section=footer" />
 
 </div>
