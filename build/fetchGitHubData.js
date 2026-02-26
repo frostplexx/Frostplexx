@@ -9,7 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetchGitHubData = exports.fetchRecentRepos = void 0;
+exports.fetchRecentRepos = fetchRecentRepos;
+exports.fetchGitHubData = fetchGitHubData;
 function getStatusBadge(pushedAt) {
     const sixMonthsAgo = new Date();
     sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
@@ -37,8 +38,8 @@ function getRepoLanguages(languagesUrl, token) {
             .join(" ");
     });
 }
-function fetchRecentRepos(count = 5, token) {
-    return __awaiter(this, void 0, void 0, function* () {
+function fetchRecentRepos() {
+    return __awaiter(this, arguments, void 0, function* (count = 5, token) {
         const owner = "Frostplexx";
         const headers = {
             "User-Agent": "Frostplexx-Profile-Readme",
@@ -67,7 +68,6 @@ function fetchRecentRepos(count = 5, token) {
         ].join("\n");
     });
 }
-exports.fetchRecentRepos = fetchRecentRepos;
 function fetchGitHubData(repos) {
     return __awaiter(this, void 0, void 0, function* () {
         const owner = "Frostplexx";
