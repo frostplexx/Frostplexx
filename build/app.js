@@ -33,84 +33,119 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
-const md = require("markdown-it")({
-    html: true, // Enable HTML tags in source
-    breaks: true, // Convert '\n' in paragraphs into <br>
-    linkify: true // Autoconvert URL-like text to links
-});
 const fetchGitHubData_1 = require("./fetchGitHubData");
-// const blogFeedUrl = "https://blog.bolajiayodeji.com/rss.xml";
-// const newsletterFeedUrl = "https://bawd.bolajiayodeji.com/feed";
-const ossProjectRepos = [
-    "winston",
-    "obsidian-github-issues",
-    "BinaryTools",
-    "vim-config"
-];
-// const ossLearningMaterialRepos = ["deploy-ml-web-workshop", "cl-composable-commerce-workshop"];
-const githubUsername = "Frostplexx";
-const websiteUrl = "https://dinama.dev";
-// const blogUrl = "https://blog.bolajiayodeji.com";
-// const newsletterUrl = "https://bawd.bolajiayodeji.com";
-// const youtubeUrl = "https://youtube.com/c/bolajiayodeji";
-// const slidesUrl = "https://slides.com/bolajiayodeji";
-// const twitterUrl = "https://twitter.com/iambolajiayo";
-// const linkedinUrl = "https://linkedin.com/in/iambolajiayo";
-// const githubSponsorsUrl = "https://github.com/sponsors/BolajiAyodeji";
-// const patreonUrl = "https://patreon.com/bolajiayodeji";
-function generateMarkdown() {
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+function generateReadme() {
     return __awaiter(this, void 0, void 0, function* () {
-        const websiteBadge = `[![Website Badge](https://img.shields.io/badge/-Website-3B7EBF?style=for-the-badge&logo=amp&logoColor=white)](${websiteUrl})`;
-        // const hashnodeBadge = `[![Blog Badge](https://img.shields.io/badge/-Blog-3B7EBF?style=for-the-badge&logo=Hashnode&logoColor=white)](${blogUrl})`;
-        // const substackBadge = `[![Newsletter Badge](https://img.shields.io/badge/-Newsletter-3B7EBF?style=for-the-badge&logo=Substack&logoColor=white)](${newsletterUrl})`;
-        // const youtubeBadge = `[![YouTube Badge](https://img.shields.io/badge/-Youtube-3B7EBF?style=for-the-badge&logo=Youtube&logoColor=white)](${youtubeUrl})`;
-        // const slidesBadge = `[![Slides Badge](https://img.shields.io/badge/-Slides-3B7EBF?style=for-the-badge&logo=slides&logoColor=white)](${slidesUrl})`;
-        // const linkedinBadge = `[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-3B7EBF?style=for-the-badge&logo=Linkedin&logoColor=white)](${linkedinUrl})`;
-        // const twitterBadge = `[![Twitter Badge](https://img.shields.io/badge/-@iambolajiayo-3B7EBF?style=for-the-badge&logo=x&logoColor=white)](${twitterUrl})`;
-        // const githubSponsorsBadge = `[![GitHub Sponsors Badge](https://img.shields.io/badge/-github%20sponsors-3B7EBF?style=for-the-badge&logo=github&logoColor=white)](${githubSponsorsUrl})`;
-        // const patreonBadge = `[![Patreon Badge](https://img.shields.io/badge/-Patreon-3B7EBF?style=for-the-badge&logo=Patreon&logoColor=white)](${patreonUrl})`;
-        const profileCountBadge = `![Profile Views Count Badge](https://komarev.com/ghpvc/?username=${githubUsername}&style=for-the-badge)`;
-        const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=3B7EBF&text_color=FFF&icon_color=3B7EBF&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${githubUsername}/${githubUsername}#gh-dark-mode-only)`;
-        const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=3B7EBF&text_color=474A4E&icon_color=3B7EBF&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${githubUsername}/${githubUsername}#gh-light-mode-only)`;
-        const markdownText = `<div align="center">\n
+        const projectsTable = yield (0, fetchGitHubData_1.fetchRecentRepos)(5, GITHUB_TOKEN);
+        const readme = `<div align="center">
 
-  ${websiteBadge} ${profileCountBadge}\n
-
-  ---\n
-
--[------->+<]>-.--[-->+++<]>. 👋
+<!-- Header -->
+<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=120&section=header&text=frostplexx&fontSize=40&fontColor=cdd6f4&fontAlignY=55&animation=fadeIn" /> -->
 
 
-  ---\n
+<!-- Brainfuck greeting decoded: "Hi" -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Maple+Mono&pause=3000&color=CBA6F7&center=true&vCenter=true&width=435&lines=-%5B-------%3E%2B%3C%5D%3E-.--%5B--%3E%2B%2B%2B%3C%5D%3E.++%F0%9F%91%8B" alt="Typing SVG" /></a>
 
-  ${githubStatsCardDark}\n
-  ${githubStatsCardLight}\n
+<!-- Badges -->
+<p>
+  <a href="https://frostplexx.neocities.org">
+    <img src="https://img.shields.io/badge/website-1e1e2e?style=for-the-badge&logo=firefox&logoColor=cba6f7" alt="Website">
+  </a>
+  <a href="https://github.com/frostplexx">
+    <img src="https://img.shields.io/badge/github-1e1e2e?style=for-the-badge&logo=github&logoColor=cba6f7" alt="GitHub">
+  </a>
+  <a href="https://discordapp.com/users/336806197158215682">
+    <img src="https://img.shields.io/badge/discord-1e1e2e?style=for-the-badge&logo=discord&logoColor=cba6f7" alt="Discord">
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Frostplexx&style=for-the-badge&color=1e1e2e&label=VISITORS&labelColor=313244" alt="Profile Views">
+</p>
 
-  </div>\n
+<br/>
 
-  ---\n
 
-  ## Highlights
+</div>
 
-  <details>\n
-  <summary>FOSS Projects</summary>\n
-  <br />
-  Here are some of my other projects you might want to check out that are not pinned:\n
-  <br />\n<br />
-  ${yield (0, fetchGitHubData_1.fetchGitHubData)(ossProjectRepos)}\n
-  </details>\n
+---
 
-  ---\n
+<div align="center">
 
-  <div align="center">\n
-   <a href="https://dinama.dev" target="_blank" rel="noopener noreferrer"><img src="https://dinama.dev/assets/icon.ico" width="30" /></a>\n
-  </div>`;
-        const result = md.render(markdownText);
-        fs.writeFile("README.md", result, (error) => {
+### \`cat about.txt\`
+
+</div>
+
+\`\`\`
+> Developer, tinkerer, open-source enthusiast
+> Based in UTC+01:00
+> Building tools for macOS, obsidian, and the terminal
+> "Look! A ladder! Maybe it leads to heaven, or a sandwich!"
+\`\`\`
+
+---
+
+<div align="center">
+
+### \`ls -la ~/languages/\`
+
+</div>
+
+<div align="center">
+
+![Swift](https://img.shields.io/badge/Swift-1e1e2e?style=for-the-badge&logo=swift&logoColor=fab387)
+![Rust](https://img.shields.io/badge/Rust-1e1e2e?style=for-the-badge&logo=rust&logoColor=e8b683)
+![TypeScript](https://img.shields.io/badge/TypeScript-1e1e2e?style=for-the-badge&logo=typescript&logoColor=89b4fa)
+![Nix](https://img.shields.io/badge/Nix-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89dceb)
+![Shell](https://img.shields.io/badge/Shell-1e1e2e?style=for-the-badge&logo=gnubash&logoColor=a6e3a1)
+
+</div>
+
+---
+
+<div align="center">
+
+### \`ls -la ~/projects/\`
+
+</div>
+
+${projectsTable}
+
+---
+
+<div align="center">
+
+### \`git log --stat\`
+
+<a href="https://github.com/Frostplexx/Frostplexx#gh-dark-mode-only">
+  <img src="https://github-readme-stats.vercel.app/api?username=Frostplexx&show_icons=true&hide_border=true&include_all_commits=true&card_width=500&custom_title=Open%20Source%20Stats&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide=contribs&show=reviews,prs_merged,prs_merged_percentage#gh-dark-mode-only" alt="GitHub Stats Dark" />
+</a>
+
+<a href="https://github.com/Frostplexx/Frostplexx#gh-light-mode-only">
+  <img src="https://github-readme-stats.vercel.app/api?username=Frostplexx&show_icons=true&hide_border=true&include_all_commits=true&card_width=500&custom_title=Open%20Source%20Stats&title_color=8839ef&text_color=4c4f69&icon_color=1e66f5&bg_color=eff1f5&hide=contribs&show=reviews,prs_merged,prs_merged_percentage#gh-light-mode-only" alt="GitHub Stats Light" />
+</a>
+
+<a href="https://github.com/Frostplexx/Frostplexx#gh-dark-mode-only">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Frostplexx&layout=compact&hide_border=true&card_width=500&title_color=cba6f7&text_color=cdd6f4&bg_color=1e1e2e&langs_count=6#gh-dark-mode-only" alt="Top Languages Dark" />
+</a>
+
+<a href="https://github.com/Frostplexx/Frostplexx#gh-light-mode-only">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Frostplexx&layout=compact&hide_border=true&card_width=500&title_color=8839ef&text_color=4c4f69&bg_color=eff1f5&langs_count=6#gh-light-mode-only" alt="Top Languages Light" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:89dceb,100:74c7ec&section=footer" />
+
+</div>
+`;
+        fs.writeFile("README.md", readme, (error) => {
             if (error)
                 throw new Error(`Something went wrong: ${error}.`);
-            console.log(`✅ README.md file was succesfully generated.`);
+            console.log(`README.md successfully generated.`);
         });
     });
 }
-generateMarkdown();
+generateReadme();

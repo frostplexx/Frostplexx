@@ -45,24 +45,6 @@
 
 <div align="center">
 
-<!-- ### `cat ~/.config/tools.json` -->
-<!---->
-<!-- </div> -->
-<!---->
-<!-- <div align="center"> -->
-<!---->
-<!-- ![NeoVim](https://img.shields.io/badge/NeoVim-1e1e2e?style=for-the-badge&logo=neovim&logoColor=a6e3a1) -->
-<!-- ![Nix](https://img.shields.io/badge/Nix-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89b4fa) -->
-<!-- ![kitty](https://img.shields.io/badge/kitty-1e1e2e?style=for-the-badge&logo=gnometerminal&logoColor=f5c2e7) -->
-<!-- ![Obsidian](https://img.shields.io/badge/Obsidian-1e1e2e?style=for-the-badge&logo=obsidian&logoColor=cba6f7) -->
-<!-- ![macOS](https://img.shields.io/badge/macOS-1e1e2e?style=for-the-badge&logo=apple&logoColor=cdd6f4) -->
-<!---->
-<!-- </div> -->
-
----
-
-<div align="center">
-
 ### `ls -la ~/languages/`
 
 </div>
@@ -87,10 +69,11 @@
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| [obsidian-github-issues](https://github.com/frostplexx/obsidian-github-issues) | Embed GitHub issues in Obsidian notes | `TypeScript` `CSS` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [opsops](https://github.com/frostplexx/opsops) | sops wrapper that integrates 1Password | `Rust` `Nix` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [LazyKeys](https://github.com/frostplexx/LazyKeys) | Remap capslock to Hyper key on macOS | `Swift` `Nix` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
-| [BinaryTools](https://github.com/frostplexx/BinaryTools) | Raycast plugin for base conversions | `TypeScript` | ![MAINTENANCE](https://img.shields.io/badge/MAINTENANCE-f9e2af?style=flat-square&logoColor=1e1e2e) |
+| [dotfiles.nix](https://github.com/frostplexx/dotfiles.nix) | No description | `Nix` `Shell` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
+| [opsops](https://github.com/frostplexx/opsops) | A wrapper for sops that integrates 1Password | `Rust` `Just` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
+| [nixkit](https://github.com/frostplexx/nixkit) | No description | `Nix` `Python` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
+| [ExtPorter](https://github.com/frostplexx/ExtPorter) | ExtPorter is a framework for automatically migrating Google Chrome extensions from Manifest V2 to Manifest V3 | `TypeScript` `Rust` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
+| [sunshine_virt_display](https://github.com/frostplexx/sunshine_virt_display) | A script to dynamically create virtual displays for Sunshine game streaming on Linux using EDID overrides. | `Python` `Shell` | ![ACTIVE](https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e) |
 
 ---
 
@@ -120,15 +103,6 @@
 
 <div align="center">
 
-<code>
-  ╱|、
-    (˚ˎ 。7  
-           |、˜〵          
-    じしˍ,)ノ
-</code>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:89dceb,100:74c7ec&section=footer" />
-
-
-
 
 </div>
