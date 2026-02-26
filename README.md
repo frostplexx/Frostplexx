@@ -38,7 +38,6 @@
 > Developer, tinkerer, open-source enthusiast
 > Based in UTC+01:00
 > Building tools for macOS, obsidian, and the terminal
-> "Look! A ladder! Maybe it leads to heaven, or a sandwich!"
 ```
 
 ---
