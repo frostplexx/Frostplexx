@@ -5,7 +5,7 @@
 
 
 <!-- Brainfuck greeting decoded: "Hi" -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Maple+Mono&pause=3000&color=CBA6F7&center=true&vCenter=true&width=435&lines=-%5B-------%3E%2B%3C%5D%3E-.--%5B--%3E%2B%2B%2B%3C%5D%3E.++%F0%9F%91%8B" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Maple+Mono&pause=3000&color=CBA6F7&center=true&vCenter=true&width=435&lines=-%5B-------%3E%2B%3C%5D%3E-.--%5B--%3E%2B%2B%2B%3C%5D%3E.++%F0%9F%91%8B" alt="Typing SVG" ></a>
 
 <!-- Badges -->
 <p>
@@ -21,7 +21,7 @@
   <img src="https://komarev.com/ghpvc/?username=Frostplexx&style=for-the-badge&color=1e1e2e&label=VISITORS&labelColor=313244" alt="Profile Views">
 </p>
 
-<br/>
+<br>
 
 
 </div>
@@ -53,10 +53,10 @@
     <tr><th>Project</th><th>Description</th><th>Stack</th><th>Status</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://github.com/frostplexx/dotfiles.nix">dotfiles.nix</a></td><td>No description</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/opsops">opsops</a></td><td>A wrapper for sops that integrates 1Password</td><td><code>Rust</code> <code>Just</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/nixkit">nixkit</a></td><td>No description</td><td><code>Nix</code> <code>Python</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/ExtPorter">ExtPorter</a></td><td>ExtPorter is a framework for automatically migrating Google Chrome extensions from Manifest V2 to Manifest V3</td><td><code>TypeScript</code> <code>Rust</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/BinaryTools">BinaryTools</a></td><td>A raycast calculator plugin for binary, decimal, hex and octal numbers.</td><td><code>TypeScript</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/QuoteCraft">QuoteCraft</a></td><td>No description</td><td><code>TypeScript</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/vim_updater">vim_updater</a></td><td>No description</td><td><code>Shell</code> <code>Python</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/dotfiles.nix">dotfiles.nix</a></td><td>This repository contains my personal system configuration for macOS.</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
     <tr><td><a href="https://github.com/frostplexx/sunshine_virt_display">sunshine_virt_display</a></td><td>A script to dynamically create virtual displays for Sunshine game streaming on Linux using EDID overrides.</td><td><code>Python</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
   </tbody>
 </table>
@@ -84,7 +84,7 @@
 ### `git log --stat`
 
 <a href="https://github.com/Frostplexx/Frostplexx#gh-dark-mode-only">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Frostplexx&show_icons=true&hide_border=true&include_all_commits=false&card_width=500&custom_title=Open%20Source%20Stats&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide=contribs&show=reviews,prs_merged,prs_merged_percentage#gh-dark-mode-only" alt="GitHub Stats Dark" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Frostplexx&show_icons=true&hide_border=true&include_all_commits=false&card_width=500&custom_title=Open%20Source%20Stats&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide=contribs&show=reviews,prs_merged,prs_merged_percentage#gh-dark-mode-only" alt="GitHub Stats Dark" >
 </a>
 
 ![snake gif](https://github.com/frostplexx/Frostplexx/blob/output/github-contribution-grid-snake-dark.svg)
@@ -93,7 +93,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:cba6f7,75:74c7ec,100:f5c2e7&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:89b4fa,50:cba6f7,75:74c7ec,100:f5c2e7&section=footer" >
 
 
 </div>
