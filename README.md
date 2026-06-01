@@ -54,10 +54,10 @@
   </thead>
   <tbody>
     <tr><td><a href="https://github.com/frostplexx/dotfiles.nix">dotfiles.nix</a></td><td>This repository contains my personal system configuration for macOS.</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/Beetroot">Beetroot</a></td><td>No description</td><td><code>TypeScript</code> <code>Nix</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
     <tr><td><a href="https://github.com/frostplexx/nixkit">nixkit</a></td><td>A collection of various nix utilities packaged as Nix flakes with configurable modules for NixOS, nix-darwin, and Home Manager.</td><td><code>Nix</code> <code>Swift</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/dotfiles-assets.nix">dotfiles-assets.nix</a></td><td>No description</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
     <tr><td><a href="https://github.com/frostplexx/sunshine_virt_display">sunshine_virt_display</a></td><td>A script to dynamically create virtual displays for Sunshine game streaming on Linux using EDID overrides.</td><td><code>Python</code> <code>Makefile</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/Beetroot">Beetroot</a></td><td>No description</td><td><code>JavaScript</code> <code>Go</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/opsops">opsops</a></td><td>A wrapper for sops that integrates 1Password</td><td><code>Rust</code> <code>Just</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
   </tbody>
 </table>
 
