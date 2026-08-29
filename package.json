@@ -16,7 +16,7 @@
         "markdown-it": "^14.0.0",
         "node-html-parser": "^7.0.2",
         "rss-parser": "^3.13.0",
-        "tsc-watch": "^6.0.4"
+        "tsc-watch": "^7.0.0"
     },
     "devDependencies": {
         "@types/node": "^20.10.5",
