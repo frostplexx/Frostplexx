@@ -53,11 +53,11 @@
     <tr><th>Project</th><th>Description</th><th>Stack</th><th>Status</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://github.com/frostplexx/nixkit">nixkit</a></td><td>A collection of various nix utilities packaged as Nix flakes with configurable modules for NixOS, nix-darwin, and Home Manager.</td><td><code>Nix</code> <code>Swift</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
     <tr><td><a href="https://github.com/frostplexx/dotfiles.nix">dotfiles.nix</a></td><td>This repository contains my personal system configuration for macOS.</td><td><code>Nix</code> <code>Shell</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/AgenticMigrator">AgenticMigrator</a></td><td>No description</td><td><code>TypeScript</code> <code>HTML</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
-    <tr><td><a href="https://github.com/frostplexx/animated-album-cover">animated-album-cover</a></td><td>No description</td><td><code>TypeScript</code> <code>Nix</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/agate-wm">agate-wm</a></td><td>No description</td><td><code>Zig</code> <code>Lua</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/nixkit">nixkit</a></td><td>A collection of various nix utilities packaged as Nix flakes with configurable modules for NixOS, nix-darwin, and Home Manager.</td><td><code>Nix</code> <code>Swift</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
     <tr><td><a href="https://github.com/frostplexx/luna-plugins">luna-plugins</a></td><td>No description</td><td><code>TypeScript</code> <code>CSS</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
+    <tr><td><a href="https://github.com/frostplexx/AgenticMigrator">AgenticMigrator</a></td><td>No description</td><td><code>TypeScript</code> <code>HTML</code></td><td><img src="https://img.shields.io/badge/ACTIVE-a6e3a1?style=flat-square&logoColor=1e1e2e" alt="ACTIVE"></td></tr>
   </tbody>
 </table>
 
